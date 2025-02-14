@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
 
-class ShopScreen extends StatelessWidget{
+class ShopScreen extends StatelessWidget {
+  const ShopScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-    throw UnimplementedError();
+    return Scaffold(
+      appBar: AppBar(title: const Text("Shop")),
+      body: const Center(child: Text("Your Shopping Cart")),
+    );
   }
 }
